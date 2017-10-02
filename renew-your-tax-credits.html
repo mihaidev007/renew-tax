@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8">
+    <title>Renew your tax credits</title>
+    <link href="common.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <span class="logo">HM Revenue &amp; Customs</span>
+        </div>
+
+        <div class="content">
+            <h1>Renew your tax credits</h1>
+            <h2>Your details</h2>
+            <form id="renewTaxCredits" action="" method="POST" autocomplete="off">
+                <fieldset class="fieldset-group">
+                    <label class="lable-class" for="national-insurance-number">Your National Insurance number</label>
+                    <a id="whereFind" href="" target="_blank">Show me where to find this</a>
+                    <input id="nationalNumber" class="input-text" name="national-insurance-number" type="text" required="">
+                </fieldset>
+                <fieldset class="fieldset-group">
+                    <p class="tax-credits-renewal">
+                        Your tax credits renewal number is the 15 digit number on the bottom right hand corner of your annual declaration. Enter
+                        it below.
+                    </p>
+                    <p>
+                        <img src="details.jpg" />
+                    </p>
+                    <label class="lable-class" for="credits-renewal-number">Your tax credits renewal number</label>
+                    <input id="renewalNumber" class="input-text" type="tel" pattern="\d*" name="credits-renewal-number" minlength="15" maxlength="15"
+                        required="">
+                </fieldset>
+                <button id="next" class="button" type="submit">Next</button>
+            </form>
+            <p class="getHelp">
+                <a id="getHelp" href="" target="_blank">Get help with this page.</a>
+            </p>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="footer-wrap">
+            <div class="footer-links">
+                <ul class="footer-menu-links">
+                    <li><a href="" target="_blank">Help</a></li>
+                    <li><a href="" target="_blank">Cookies</a></li>
+                    <li><a href="" target="_blank">Privacy policy</a></li>
+                    <li><a href="" target="_blank">Terms and conditions</a></li>
+                </ul>
+                <div class="ogl-licence">
+                    <a href="" target="_blank"><img src="ogl_logo.jpg" alt="OGL"></a>
+                    <span>All content is available under the <a href="" target="_blank">Open Government Licence v2.0</a>, except where otherwise stated</span>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <div>
+                    <img src="footer_logo.jpg" />
+                </div>
+                <div class="crown-copyright">
+                    &copy; Crown Copyright
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

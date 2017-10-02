@@ -1,0 +1,135 @@
+html {
+    background-color: #dee0e2;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+.wrap {
+    max-width: 980px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    font-size: 18px;
+    border-top: 10px solid #005ea5;
+}
+
+.logo {
+    line-height: 55px;
+    padding: 4px 0 2px 35px;
+    background-image: url(logo.jpg);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    border-left: 2px solid #028F8A;
+    white-space: nowrap;
+}
+
+#whereFind {
+    margin-left: 2.5em;
+    color: #2072b0;
+}
+
+.fieldset-group {
+    border: none;
+    padding: 0px;
+}
+
+#renewTaxCredits .input-text {
+    display: block;
+    background-color: #f9f9f9;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+#nationalNumber {
+    width: 96px;
+}
+
+#renewalNumber {
+    width: 156px;
+}
+
+.tax-credits-renewal {
+    margin-top: 40px;
+    max-width: 550px;
+}
+
+#next {
+    background-color: #02803A;
+    padding: 0.35em 0.5em 0.15em 0.5em;
+    margin-top: 0.8em;
+    border: none;
+    border-bottom: 2px solid #012E15;
+    line-height: 1.25;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.getHelp {
+    margin: 2.5em 0em;
+}
+
+#getHelp {
+    color: #5d6263;
+}
+
+footer {
+    background-color: #dee0e2;
+    border-top: 1px solid #9DA8AD;
+    font-family: Arial, sans-serif;
+    font-size: 0.85em;
+    color: #5a5f61;
+}
+
+footer a {
+    color: #5a5f61;
+}
+
+.footer-wrap {
+    max-width: 980px;
+    margin: 80px auto 0;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.footer-links {
+    display: inline-block;
+    width: 80%;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.footer-logo {
+    display: inline-block;
+    width: 19%;
+    vertical-align: bottom;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul.footer-menu-links {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.footer-menu-links>li {
+    display: inline-block;
+    margin: 0 16px 0 0;
+}
+
+.crown-copyright {
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 650px) {
+    .footer-logo {
+        display: block;
+    }
+}
